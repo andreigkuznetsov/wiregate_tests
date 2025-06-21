@@ -33,7 +33,7 @@ public class RegistrationUiTest {
         regPage.registerButton.shouldBe(Condition.enabled).click();
         regPage.shouldBeOnSuccessPage();
 
-        Thread.sleep(300);
+        Thread.sleep(500);
 
         userId = DatabaseHelper.findIdByEmail(testEmail);
 

@@ -55,7 +55,7 @@ public class RegistrationApiTest {
 
         userId = idNum.longValue();
 
-        Thread.sleep(300);
+        Thread.sleep(500);
 
         Assertions.assertTrue(
                 DatabaseHelper.checkUserInDbById(
